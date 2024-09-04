@@ -1,4 +1,5 @@
-This repository includes the source code of "**Enhancing Link Prediction in Graph Neural Networks through Diffusion-Based Multivariate Latent Variable Models**"
+
+This repository includes the source code of "**Heterophilous to Homophilous Graph Transformation Based on Deep Generative Framework**"
 
 # Requirements
 
@@ -7,12 +8,11 @@ This repository includes the source code of "**Enhancing Link Prediction in Grap
 * networkx
 * scikit-learn
 * scipy
+* dgl
 
 # How to run
-* Specify your arguments in `args.py` : you can change dataset and other arguments there
-* run `python train.py`
+* run `python3 train.py --dataset minesweeper --model HeToHo --num_layers 1`
 
 # Notes
 
-* Dropout is not implemented now.
 * Feel free to report some inefficiencies in the code! (It's just initial version)
